@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You - Clover Capital</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00574A',
+                        secondary: '#DAA520',
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans bg-gray-50">
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="index.html">
+                        <img src="logo.svg" alt="Clover Capital" class="h-12">
+                    </a>
+                </div>
+                <div class="flex items-center">
+                    <a href="tel:+1234567890" class="text-primary hover:text-opacity-80 transition-all mr-6">
+                        <i class="fas fa-phone mr-2"></i>Call Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-xl shadow-lg p-8 text-center">
+                <div class="text-primary mb-6">
+                    <i class="fas fa-check-circle text-6xl"></i>
+                </div>
+                <h1 class="text-3xl font-bold text-gray-900 mb-4">Thank You for Your Application!</h1>
+                <p class="text-gray-600 mb-8">
+                    We have received your business funding application and will review it shortly. 
+                    Our team will contact you within 24-48 business hours to discuss the next steps.
+                </p>
+                <a href="index.html" class="inline-block bg-primary text-white py-3 px-6 rounded-md hover:bg-opacity-90 transition-all">
+                    Return to Homepage
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-2xl font-bold mb-4">Clover Capital</h2>
+                <p class="text-gray-400">Your trusted partner in business financing</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
