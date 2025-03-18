@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="100" viewBox="0 0 600 100">
+  <g transform="translate(0,0)">
+    <!-- Clover leaf shape - refined design -->
+    <!-- Bottom leaf -->
+    <path d="M45,50 C45,60 50,65 55,55 C60,65 65,60 65,50" fill="#DAA520"/>
+    <!-- Right leaf -->
+    <path d="M55,45 C65,45 70,50 60,55 C70,60 65,65 55,55" fill="#DAA520"/>
+    <!-- Left leaf -->
+    <path d="M45,45 C35,45 30,50 40,55 C30,60 35,65 45,55" fill="#DAA520"/>
+    <!-- Top leaf -->
+    <path d="M45,35 C45,25 50,20 55,30 C60,20 65,25 65,35" fill="#DAA520"/>
+    <!-- Stem -->
+    <path d="M55,55 L55,70" stroke="#DAA520" stroke-width="2"/>
+    <!-- Text -->
+    <text x="100" y="65" font-family="Arial" font-size="48" font-weight="bold" fill="#00574A">CLOVER</text>
+    <text x="300" y="65" font-family="Arial" font-size="48" font-weight="bold" fill="#333333">CAPITAL</text>
+  </g>
+</svg>
