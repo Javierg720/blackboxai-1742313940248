@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clover Capital</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00574A',
+                        secondary: '#DAA520',
+                        'light-blue': '#E5F6FF'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    backgroundImage: {
+                        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-sans">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex-shrink-0 flex items-center">
+                    <img src="logo.svg" alt="Clover Capital" class="h-12">
+                </div>
+                <div class="flex items-center">
+                    <a href="#apply" class="bg-primary text-white px-6 py-2 rounded-md hover:bg-opacity-90 transition-all inline-block cursor-pointer">
+                        Get Approved
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gradient-radial from-light-blue via-white to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
+                    Your Business. Your Future.
+                </h1>
+                <p class="text-xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                    Whether your business has just started, or is well established, we have the right business financing solution for you.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="#apply" class="bg-primary text-white px-8 py-3 rounded-md hover:bg-opacity-90 transition-all text-lg inline-block cursor-pointer">
+                        Get Approved
+                    </a>
+                    <a href="tel:+1234567890" class="border-2 border-primary text-primary px-8 py-3 rounded-md hover:bg-primary hover:text-white transition-all text-lg inline-block cursor-pointer">
+                        Schedule a Call <i class="fas fa-phone ml-2"></i>
+                    </a>
+                </div>
+                <div class="mt-12 flex items-center justify-center gap-2">
+                    <div class="flex text-yellow-400 text-xl">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <span class="text-gray-600 text-lg">4.8 rating on TrustPilot</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-20 bg-gradient-to-b from-white to-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-900">Business Financing brilliantly personalized</h2>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div class="p-8 rounded-xl bg-white shadow-lg hover:shadow-xl transition-all">
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-chart-line text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Business Growth</h3>
+                    <p class="text-gray-600">Tailored financing solutions to fuel your business expansion</p>
+                </div>
+                <div class="p-6 rounded-lg bg-gray-50 hover:shadow-lg transition-all">
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-dollar-sign text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Working Capital</h3>
+                    <p class="text-gray-600">Flexible funding to manage day-to-day operations</p>
+                </div>
+                <div class="p-6 rounded-lg bg-gray-50 hover:shadow-lg transition-all">
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-cogs text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Equipment Financing</h3>
+                    <p class="text-gray-600">Acquire new equipment to scale your operations</p>
+                </div>
+                <div class="p-6 rounded-lg bg-gray-50 hover:shadow-lg transition-all">
+                    <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-file-invoice-dollar text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Invoice Financing</h3>
+                    <p class="text-gray-600">Turn unpaid invoices into immediate cash flow</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="py-24 bg-primary text-white relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQ0MCIgaGVpZ2h0PSI3NjUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj48cGF0aCBkPSJNLTU3LjUgNDQuNUM3Ni44MyA0NC41IDE3Ny42NyAxMTQuNSAyNDUgMjU0LjVjMTAxLjMzIDIxMCAxMzQuMzMgNDY3LjY3IDk5IDc3Mi41IiBzdHJva2U9IiNGRkYiIHN0cm9rZS13aWR0aD0iMiIvPjwvZz48L3N2Zz4=')]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-16">How It Works</h2>
+            <div class="grid md:grid-cols-4 gap-8 text-center">
+                <div>
+                    <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-file-alt text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Apply</h3>
+                    <p class="text-white/80">Click here to access our online application and begin the process.</p>
+                </div>
+                <div>
+                    <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-check text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Get Approved</h3>
+                    <p class="text-white/80">You will receive approvals within 24 hours of submitting your application.</p>
+                </div>
+                <div>
+                    <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-handshake text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Select Offer</h3>
+                    <p class="text-white/80">Work with your dedicated account executive to select a custom tailored approval.</p>
+                </div>
+                <div>
+                    <div class="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-rocket text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Receive Capital</h3>
+                    <p class="text-white/80">Start growing your business!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section class="py-24 bg-gradient-to-b from-gray-50 to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center mb-16">The advantages we have over financial providers.</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="p-6">
+                    <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-users text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Experienced</h3>
+                    <p class="text-gray-600">Our experienced finance solutions provide reliable guidance and proven strategies to help you reach your financial goals.</p>
+                </div>
+                <div class="p-6">
+                    <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-headset text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Great Customer Service</h3>
+                    <p class="text-gray-600">We prioritize customers' needs with prompt, friendly service, listening to their concerns, providing solutions, and valuing feedback.</p>
+                </div>
+                <div class="p-6">
+                    <div class="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-bolt text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2">Fast Approval Process</h3>
+                    <p class="text-gray-600">Accelerate approvals with fast, efficient processes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="apply" class="py-24 bg-gradient-radial from-light-blue via-white to-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold mb-8">Ready to grow your business?</h2>
+            <p class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">Get started with Clover Capital today and discover the perfect financing solution for your business needs.</p>
+                        <a href="apply.html" class="bg-primary text-white px-10 py-4 rounded-md hover:bg-opacity-90 transition-all text-lg font-semibold inline-block cursor-pointer">
+
+                Apply Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h2 class="text-2xl font-bold mb-4">Clover Capital</h2>
+                <p class="text-gray-400">Your trusted partner in business financing</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
